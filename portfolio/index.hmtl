@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amos Segera - Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Amos Segera</h1>
+        <p>
+            I am a passionate software developer with over five years of experience in building scalable web applications. Currently, I work at [Your Company], where I lead a team in developing innovative solutions that enhance user experience and optimize performance.
+
+            Throughout my career, I have honed my skills in front-end and back-end technologies, particularly in JavaScript, React, and Node.js. My ability to collaborate effectively with cross-functional teams has enabled me to deliver high-quality products on time, while my commitment to continuous learning keeps me at the forefront of industry trends.
+            
+            I believe in the power of technology to solve real-world problems and am dedicated to creating applications that empower users. My goal is to leverage my expertise to contribute to projects that make a meaningful impact in the community, particularly in the areas of education and accessibility.
+            
+            I am excited about the opportunity to work with like-minded professionals who share my vision for innovation and social responsibility.
+        </p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <section id="inroduction">
+            <h2>Introduction</h2>
+            <p>
+                Hello! My name is Amos Segera, a dedicated professional with a passion for technology and innovation. With a background in software development, I specialize in creating efficient and scalable applications that enhance user experience. I thrive on solving complex problems and enjoy collaborating with teams to bring ideas to life. In my spare time, I love exploring new programming languages and staying updated with industry trends. I believe in continuous learning and strive to make a positive impact through my work.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article class="project">
+                <h3>Project Title 1</h3>
+                <p>This project is about [brief description of the project].</p>
+                <a href="https://link-to-your-project1.com" target="_blank">View Project</a>
+            </article>
+    
+            <article class="project">
+                <h3>Project Title 2</h3>
+                <p>This project focuses on [brief description of the project].</p>
+                <a href="https://link-to-your-project2.com" target="_blank">View Project</a>
+            </article>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Amos Segera holds a degree in Computer Science from Cooperative univesity of kenya and has over five years of experience in the tech industry. He has worked with various companies, ranging from startups to established enterprises, where he has contributed to multiple successful projects. His background includes a strong foundation in software engineering principles and a deep understanding of modern development practices.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><a href="mailto:your.segeramos89@gmail.com">your.email@example.com</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/amos-segera-57a13a25b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://github.com/your-Segeramos" target="_blank">GitHub</a>
+            </p>
+        </section>
+    </section>
+    <article></article>
+    <footer>
+        <p>&copy; 2024 Amos Segera. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
