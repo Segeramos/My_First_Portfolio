@@ -19,14 +19,14 @@ function Projects() {
     return (
       <section id="projects" className="py-20 bg-cyan-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8 text-white">Projects</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-cyan-200">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {projectsData.map((project, index) => (
               <div 
                 key={index} 
-                className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-all"
+                className="bg-cyan-200 shadow-md rounded-lg p-6 hover:shadow-xl transition-all"
               >
-                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-cyan-950">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (

@@ -7,7 +7,7 @@ function Skills() {
     return (
       <section id="skills" className="bg-cyan-900 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-white font-bold text-center mb-8">Skills</h2>
+          <h2 className="text-3xl text-cyan-200 font-bold text-center mb-8">Skills</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill, index) => (
               <span 

@@ -39,11 +39,11 @@ function Contact() {
 
     return (
         <section id="contact" className="bg-cyan-900 py-12">
-            <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
+            <div className="container mx-auto px-4 ">
+                <h2 className="text-3xl font-bold text-center mb-8 text-cyan-200">Contact Me</h2>
                 <form 
                     onSubmit={handleSubmit} 
-                    className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md"
+                    className="max-w-md mx-auto bg-cyan-700 p-8 rounded-lg shadow-md"
                 >
                     <input 
                         type="email" 
@@ -51,7 +51,7 @@ function Contact() {
                         placeholder="Your Email" 
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="w-full p-3 mb-4 border rounded-md"
+                        className="w-full p-3 mb-4 border rounded-md bg-cyan-200"
                         required 
                     />
                     <textarea 
@@ -59,18 +59,18 @@ function Contact() {
                         placeholder="Your Message" 
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
-                        className="w-full p-3 mb-4 border rounded-md h-32"
+                        className="w-full p-3 mb-4 border rounded-md h-32 bg-cyan-200"
                         required
                     />
                     <button 
                         type="submit" 
-                        className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition"
+                        className="w-full bg-cyan-200 text-cyan-950 font-semibold py-3 rounded-md hover:bg-cyan-600 transition hover:text-cyan-200"
                         disabled={isLoading} // Disable button while loading
                     >
                         {isLoading ? 'Sending...' : 'Send Message'}
                     </button>
                 </form>
-                {error && <p className="text-red-500 text-center mt-4">{error}</p>}
+                {error && <p className="text-red-500 bg-cyan-200 rounded text-center mt-4">{error}</p>}
             </div>
         </section>
     );
